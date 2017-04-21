@@ -1,12 +1,28 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/collection/collection",
+    "pages/collection/item/item"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的名片"
+      },
+      {
+        "pagePath": "pages/collection/collection",
+        "text": "名片夹"
+      }
+    ],
+    "color": "#aaa",
+    "selectedColor": "#333",
+    "backgroundColor": "#f9f9f9"
   }
 }

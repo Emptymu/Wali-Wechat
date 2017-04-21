@@ -1,10 +1,12 @@
 <!--index.wxml-->
+<import src="../templates/card/card.wxml" />
+
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <template is="card" data="{{userData}}" />
+  <view class="img-box">
+    <!--TODO Tap Preview and Scan-->
+    <canvas id="mycanvas" canvas-id="mycanvas"/>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <!-- end of img-box -->
 </view>
+<!-- end of container -->

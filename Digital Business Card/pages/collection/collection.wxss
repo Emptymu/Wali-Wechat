@@ -1,0 +1,19 @@
+/***collection***/
+.item {
+	display: flex;
+	align-self: stretch;
+	margin-top: 40rpx;
+	padding: 0 40rpx;
+}
+
+image {
+	width: 80rpx;
+  	height: 80rpx;
+  	margin-right: 30rpx;
+  	border-radius: 50%;
+}
+
+text {
+	align-self: center;
+	font-size: 30rpx;
+}

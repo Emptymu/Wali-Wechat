@@ -1,21 +1,12 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/***index***/
+/* canvas */
+.img-box {
+  position: relative;
+  margin-top: 100rpx;
+  border-top: 1rpx solid #e5e5e5;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+#mycanvas {
+  width: 464rpx;
+  height: 464rpx;
 }

@@ -1,0 +1,14 @@
+<!--Card Template-->
+<template name="card">
+    <view class="cardInfo">
+        <image class="cardInfo-avatar" src="{{userData.avatarUrl}}" background-size="cover"></image>
+        <view class="cardInfo-details">
+            <text class="cardInfo-name detail">{{userData.name}}</text>
+            <text class="cardInfo-title detail">{{userData.title}}</text>
+            <text class="cardInfo-org detail">{{userData.organization}}</text>
+            <text class="cardInfo-contact detail">{{userData.contact}}</text>
+        </view>
+    </view>
+    <!-- end of cardInfo -->
+</template>
+<!-- end of card -->

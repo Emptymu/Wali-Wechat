@@ -1,0 +1,6 @@
+<import src="../../templates/card/card.wxml" />
+
+<view class="container">
+	<template is="card" data="{{userData}}" />
+</view>
+<!-- end of container -->

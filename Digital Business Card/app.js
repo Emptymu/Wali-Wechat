@@ -16,7 +16,9 @@ App({
         success: function () {
           wx.getUserInfo({
             success: function (res) {
-              that.globalData.userInfo = res.userInfo
+              that.globalData.userInfo = res.userInfo;
+              // console.log('User info: ', res.userInfo);
+              // console.log('Encrypted data: ', res.encryptedData);
               typeof cb == "function" && cb(that.globalData.userInfo)
             }
           })

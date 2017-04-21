@@ -16,6 +16,11 @@ function formatNumber(n) {
   return n[1] ? n : '0' + n
 }
 
+function toThousands(num) {
+  return (num || '').replace(/(\d)(?=(?:\d{3})+$)/g);
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  toThousands: toThousands
 }

@@ -1,0 +1,9 @@
+<!--pages/collection/collection.wxml-->
+<view class="container">
+	<block wx:for="{{collection}}" wx:for-item="card" wx:key="userId">
+	    <view class="item" bindtap="showCard" data-user-id="{{card.userId}}">
+	        <image src="{{card.avatarUrl}}"></image>
+	        <text>{{card.name}} {{card.title}} {{card.organization}}</text>
+	    </view>
+	</block>
+</view>

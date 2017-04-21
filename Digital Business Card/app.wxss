@@ -1,10 +1,45 @@
-/**app.wxss**/
+/***app***/
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
+  padding: 100rpx 0;
   box-sizing: border-box;
-} 
+}
+
+/**Card Template**/
+/*font*/
+.cardInfo {
+  color: #aaa;
+}
+
+.cardInfo-name {
+  color: #333;
+}
+
+/*layout box*/
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.cardInfo-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.detail {
+  flex: 1 25%;
+}
+
+.cardInfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 30rpx;
+  border-radius: 50%;
+}
+ 
